@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="500">
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
-        <Grid Background="SeaShell">
+        <Grid Background="DimGray">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <local:StretchWrapPanel Grid.Row="0" Margin="5" Background="Gray">
+            <!--<local:StretchWrapPanel Grid.Row="0" Margin="5" Background="Gray">
                 <Button Margin="5" Width="100">Button A</Button>
                 <Button Margin="5" Width="300">Button B</Button>
-            </local:StretchWrapPanel>
+            </local:StretchWrapPanel>-->
             
             <local:StretchWrapPanel Grid.Row="1" Margin="5" Background="Gray">
                 <Button Margin="5" Width="100" Height="32">Button 1</Button>

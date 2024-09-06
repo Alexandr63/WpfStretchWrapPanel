@@ -104,7 +104,7 @@ namespace WpfStretchWrapPanel
             panelHeight += rowHeight;
 
             HorizontalStretchChildItems(availableSize.Width);
-            LastRowWithSingleItemAlignRight(availableSize.Width);
+            // LastRowWithSingleItemAlignRight(availableSize.Width);
 
             return new Size(availableSize.Width, panelHeight);
         }
